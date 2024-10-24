@@ -1,0 +1,92 @@
+body {
+  background-color: white !important;
+}
+
+.navbar-color {
+  background-color: #28a745 !important;
+  color: black !important;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.SucursalesCard {
+  border: none !important;
+  margin-bottom: 20px !important;
+  cursor: pointer;
+  font-family: roboto;
+  font-weight: 300;
+}
+
+.card-footer {
+  background-color: white !important;
+  color: black !important;
+  font-family: roboto;
+}
+.valores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valorInicial {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 300;
+  align-items: left;
+}
+
+.valorFinal {
+  color: #28a745;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: left;
+}
+
+.formulario {
+  background-color: #28a745 !important;
+  padding: 40px !important;
+  margin-top: 50px !important;
+  /* max-width: 500px !important;*/
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.formulario h3 {
+  color: white !important;
+  font-size: 21;
+  font-weight: 500;
+  text-align: center;
+}
+.formulario :placeholder-shown {
+  color: white !important;
+  font-family: roboto;
+  font-weight: 300;
+}
+
+.button {
+  text-align: center !important;
+}
+
+.footer {
+  background-color: white !important;
+  color: white !important;
+  font-family: roboto !important;
+  font-weight: 500;
+  padding: 20px !important;
+  text-align: center;
+}

@@ -1,0 +1,219 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: #3b5307;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border-color: #3b5307; /* Cambia el color del borde del botón a verde */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='green' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Cambia el color de las líneas (icono hamburguesa) a verde */
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between; /* Separa el texto y la imagen */
+  align-items: center;
+  padding: 60px; /* Ajuste de padding para estética */
+  background-color: white !important;
+  color: black;
+  font-family: roboto;
+  border-radius: 50px solid green; /* Redondeado del borde */
+  height: 500px;
+}
+.descripcion {
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 200px;
+  text-align: left;
+}
+.descripcion p {
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 200px;
+  text-align: left;
+}
+
+.Presentacion {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b5307;
+}
+
+.imagen2 {
+  margin-left: 30px; /* Espacio entre el texto y la imagen */
+}
+
+.foto-perfil {
+  width: 350px; /* Tamaño de la imagen */
+  height: 350px;
+  border-radius: 50%; /* Forma circular */
+  object-fit: cover; /* Ajuste correcto dentro del contenedor circular */
+  margin-bottom: 20px; /* Separación entre la imagen y el texto */
+  margin-right: 40px; /* Separación entre la imagen y el texto */
+}
+
+.datos-personales {
+  display: block;
+  margin-top: 100px;
+  padding: 60px;
+  background-color: #a78b42;
+  font-family: roboto;
+}
+.as {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-family: roboto;
+  color: white;
+  padding: 20px;
+  background-color: #3b5307;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.datos-personales h2 {
+  color: black !important;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px !important;
+}
+
+.direccion {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.telefono {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.email {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.formulario {
+  background-color: white !important;
+  padding: 40px !important;
+  margin-top: 50px !important;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.logorrss {
+  margin: 20px;
+  padding: 20px !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rrss i {
+  font-size: 40px;
+  justify-content: center !important;
+}
+
+.rrss a {
+  color: #3b5307;
+}
+
+.PortafolioTitulo {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b5307;
+  text-align: center;
+}
+.seccionPortafolio {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.card {
+  margin-right: 20px;
+  padding: 30px;
+}
+
+.timeline {
+  position: relative;
+  list-style: none;
+  padding: 20px 0;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #dee2e6;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.timeline-item-left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item-right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b5307;
+  border: 4px solid white;
+  z-index: 1;
+}
+
+.timeline-item-left:before {
+  right: -10px;
+}
+
+.timeline-item-right:before {
+  left: -10px;
+}
+
+.timeline-item-content {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

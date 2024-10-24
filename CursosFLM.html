@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folung Men</title>
+
+    <!-- Traer Bootstrap via CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--  css -->
+    <link rel="stylesheet" href="./assets/css/cssD4/style.css" />
+
+    <!--Traigo la fuente especificada en el proyecto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-color">
+      <div class="container-fluid">
+        <img
+          src="https://folungmen.cl/wp-content/uploads/2024/02/sanda-1.png"
+          width="100"
+          alt=""
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >¿Quiénes Somos?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nuestros Instructores</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nuestos Cursos 
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Kung Fu Tradicional</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Sanda</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Danza de Leon y Dragón</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Shuajiao</a></li>
+                <!--<li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-disabled="true">Sucursales</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Tarjetas-->
+    <div class="container">
+        <h2>Nuestros cursos</h2>
+        <div class="row">
+          <!-- Primera Card -->
+          <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="https://folungmen.cl/wp-content/uploads/2024/05/Clases-1-2048x1365.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Taolu</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quam, consectetur voluptatibus. Doloribus, repellat.
+                </p>
+                <div class="SucursalesCard">
+                <h6>Sucursales</h6>
+                <i class="fa-solid fa-location-dot"></i>
+                  <span>Maipu</span>
+                <i class="fa-solid fa-location-dot"></i>  
+                  <span>Providencia</span>
+            
+                </div>
+                <div class="card-footer ">
+                <div class="valores">
+                <p class="valorInicial">$180.000 </p>
+                <p class="valorFinal">$120.000 </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Segunda Card -->
+          <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmyLBeKAF4xGTdXESqGdjJTijEDAH8luLZkQ&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sanda</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quam, consectetur voluptatibus. Doloribus, repellat.
+                </p>
+                <div class="SucursalesCard">
+                    <h6>Sucursales</h6>
+                    <i class="fa-solid fa-location-dot"></i>
+                      <span>Maipu</span>
+                    <i class="fa-solid fa-location-dot"></i>  
+                      <span>Providencia</span>
+                
+                    </div>
+                    <div class="card-footer ">
+                    <div class="valores">
+                    <p class="valorInicial">$150.000 </p>
+                    <p class="valorFinal">$100.000 </p>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+           <!-- Tercera Card -->
+           <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpTout9kkqEtjyI7bGKRG6ngH5D3zHPIXtg&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Danza de León</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quam, consectetur voluptatibus. Doloribus, repellat.
+                </p>
+                <div class="SucursalesCard">
+                    <h6>Sucursales</h6>
+                    <i class="fa-solid fa-location-dot"></i>
+                      <span>Maipu</span>
+                    <i class="fa-solid fa-location-dot"></i>  
+                      <span>Providencia</span>
+                
+                    </div>
+                    <div class="card-footer ">
+                    <div class="valores">
+                    <p class="valorInicial">$90.000 </p>
+                    <p class="valorFinal">$60.000</p>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+           <!-- Cuarta Card -->
+           <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Shuajiao</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quam, consectetur voluptatibus. Doloribus, repellat.
+                </p>
+                <div class="SucursalesCard">
+                    <h6>Sucursales</h6>
+                    <i class="fa-solid fa-location-dot"></i>
+                      <span>Maipu</span>
+                    <i class="fa-solid fa-location-dot"></i>  
+                      <span>Providencia</span>
+                
+                    </div>
+                    <div class="card-footer ">
+                    <div class="valores">
+                    <p class="valorInicial">$200.000 </p>
+                    <p class="valorFinal">$150.000 </p>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+  
+
+    <!--<div class="card" style="width: 18rem;">
+        <img src="https://cdn.milenio.com/uploads/media/2019/09/20/el-de-septiembre-es-la_0_10_500_312.jpg" class="card-img-top" alt="otoño">
+        <div class="card-body">
+          <h5 class="card-title">otoño</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores atque totam quos autem unde praesentium distinctio quod adipisci facilis temporibus.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            2 days ago
+        </div>
+    </div> -->
+
+  
+
+
+
+    <!--Formulario-->
+    <div class="formulario">
+      <h3 class="formulario-p">Recibe información en tu correo</h3>
+      <div class="mb-4">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="1"
+          placeholder="Nombre"
+        ></textarea>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="correo"
+          />
+        </div> 
+        <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-light button">Enviar</button>
+        </div> 
+      </div>
+      
+      <!--Falta un boton aquí-->
+    </div>
+<!--footer-->
+<footer class="  text-center text-lg-start">
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" >
+      <p><strong>FolungMen</strong> </p>
+      © 2018 Folungmen  Internacional .Todos los derechos reservados.
+    </div>
+  </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+
+    <!-- Traer Bootstrap via CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--  css -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css " />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MPENAG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Principal</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Portafolio.html">Portafolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Acerca de Mi
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="SobreMi.html">Sobre mi</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ExpLaboral.html"
+                    >Experiencia Laboral</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="Educa.html">Eduación</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2 class="text-center my-5">Experiencia Laboral</h2>
+      <ul class="timeline">
+        <!-- Primera experiencia -->
+        <li class="timeline-item timeline-item-left">
+          <div class="timeline-item-content">
+            <h5>Desarrollador Web</h5>
+            <p>Empresa XYZ - Enero 2020 a Diciembre 2021</p>
+            <p>
+              Desarrollé y mantuve sitios web usando HTML, CSS y JavaScript.
+            </p>
+          </div>
+        </li>
+
+        <!-- Segunda experiencia -->
+        <li class="timeline-item timeline-item-right">
+          <div class="timeline-item-content">
+            <h5>Analista de Datos</h5>
+            <p>Empresa ABC - Enero 2022 a Actualidad</p>
+            <p>
+              Analizo datos en tiempo real para mejorar la toma de decisiones
+              usando herramientas como Python y SQL.
+            </p>
+          </div>
+        </li>
+
+        <!-- Tercera experiencia -->
+        <li class="timeline-item timeline-item-left">
+          <div class="timeline-item-content">
+            <h5>Gerente de Proyectos</h5>
+            <p>Empresa DEF - Marzo 2018 a Diciembre 2019</p>
+            <p>
+              Gestioné proyectos de tecnología, asegurando el cumplimiento de
+              plazos y presupuesto.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <div class="rrss">
+        <div class="logorrss">
+          <div class="ig">
+            <a
+              href="https://www.instagram.com/mpenag1605/profilecard/?igsh=MXNzN3ViNmRpd2hvcA=="
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          <div class="gh">
+            <a
+              href="https://github.com/matpenag"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
